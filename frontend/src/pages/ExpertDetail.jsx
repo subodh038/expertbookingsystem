@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import API from "../services/api";
 import BookingPage from "./BookingPage";
 import { io } from "socket.io-client";
-const socket = io("http://localhost:5000");
+const socket = io("https://expert-booking-backend.onrender.com");
 const ExpertDetail = () => {
     const [bookedSlots, setBookedSlots] = useState([]);
   const { id } = useParams();
