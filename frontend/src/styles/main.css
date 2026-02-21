@@ -1,0 +1,123 @@
+/* ===== GLOBAL ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f4f6fb;
+  color: #1f2937;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+/* ===== CARDS ===== */
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #e5e7eb;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== BUTTONS ===== */
+button {
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:hover {
+  background: #4338ca;
+}
+
+button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+
+/* ===== SLOT BUTTONS ===== */
+.slot-btn {
+  margin: 6px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  border: none;
+  color: white;
+}
+
+.slot-available {
+  background: #4f46e5;
+}
+
+.slot-selected {
+  background: #16a34a;
+}
+
+.slot-booked {
+  background: #9ca3af;
+  cursor: not-allowed;
+}
+/* ===== FORM ===== */
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ===== STATUS BADGES ===== */
+.status {
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status.Pending {
+  background: #fde68a;
+  color: #92400e;
+}
+
+.status.Confirmed {
+  background: #bbf7d0;
+  color: #065f46;
+}
+
+.status.Completed {
+  background: #dbeafe;
+  color: #1e40af;
+}
+body {
+  background: rgb(208, 223, 241) !important;
+}
